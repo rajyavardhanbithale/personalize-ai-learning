@@ -24,6 +24,14 @@ Many students struggle to prepare effectively for exams because they lack a clea
 - Continuous feedback loop for smarter revision
 - Clean UI with reusable components
 
+![Screenshot from 2025-04-08 16-10-37](https://github.com/user-attachments/assets/f08706f9-fe31-4fae-987e-2560b3caa43a)
+![Screenshot from 2025-04-08 16-10-47](https://github.com/user-attachments/assets/c639b321-41fd-400a-ae31-e4c69c6aef63)
+![Screenshot from 2025-04-08 16-10-54](https://github.com/user-attachments/assets/be3ec9bc-a31a-434f-aa4d-71cdca596b19)
+![Screenshot from 2025-04-08 16-14-27](https://github.com/user-attachments/assets/6f31340b-c368-4007-94fe-3b52a917f4b9)
+![Screenshot from 2025-04-08 16-14-30](https://github.com/user-attachments/assets/8ffe8727-6217-4816-8e8b-489be387d8da)
+![Screenshot from 2025-04-08 16-13-04](https://github.com/user-attachments/assets/152cb3e4-cd6e-4bda-8959-20758aeda114)
+
+
 ## 🛠️ Tech Stack
 
 - **Next.js** with **TypeScript**
