@@ -14,14 +14,13 @@ Many students struggle to prepare effectively for exams because they lack a clea
    After completing the learning plan, the student takes a quiz tailored to that topic (Easy/Medium/Hard levels).
 
 4. **Identify Weak Areas**  
-   Based on quiz performance, the system identifies weak subtopics and adjusts future study and quiz recommendations accordingly.
+   Provied the weak and strong topics.
 
 ## Features
 
 - AI-generated study plans based on input topics
 - Adaptive quizzes for each topic
 - Performance analysis to highlight weak areas
-- Continuous feedback loop for smarter revision
 - Clean UI with reusable components
 
 ![Screenshot from 2025-04-08 16-10-37](https://github.com/user-attachments/assets/f08706f9-fe31-4fae-987e-2560b3caa43a)
