@@ -32,7 +32,7 @@ export default function StudyPlan({ params }: { params: Promise<{ id: string }> 
             An Error Occured
           </h1>
           <p className="text-zinc-400 text-lg">
-            Please dont refresh the page 
+            Please Go to home page may be the token limit exceeds
           </p>
         </div>
       )}
