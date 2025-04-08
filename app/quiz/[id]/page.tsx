@@ -10,7 +10,7 @@ export default function StudyPlan({ params }: { params: Promise<{ id: string }> 
   const { id } = use(params)
 
   const [plan, setPlan] = useState(null)
-  const [error, setError] = useState(null)
+  const [error, setError] = useState<string | null>(null)
 
   const { QuizPlan } = useQuizPlanStore();
 
@@ -26,6 +26,7 @@ export default function StudyPlan({ params }: { params: Promise<{ id: string }> 
         console.log(response.data)
       } catch (err) {
         console.error(err)
+        setError('An Error Occured')
       }
     }
 

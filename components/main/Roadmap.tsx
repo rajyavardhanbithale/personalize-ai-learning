@@ -1,3 +1,5 @@
+/* eslint-disable  @typescript-eslint/no-explicit-any */
+
 import { useQuizPlanStore } from "@/store/quiz";
 import { QuizPrompt, StudyPlanResponse } from "@/types/api";
 import PerformanceCard from "./PerformanceCard";

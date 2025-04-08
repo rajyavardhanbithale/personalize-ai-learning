@@ -1,16 +1,15 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 "use client"
 
-import { use, useEffect, useState } from "react"
-import axios from "axios"
 import Roadmap from "@/components/main/Roadmap"
 import { QuizPrompt } from "@/types/api"
 import { useStudyPlanStore } from "@/store/roadmap"
 import { useQuizPlanStore } from "@/store/quiz"
 import { useRouter } from "next/navigation"
-import PerformanceCard from "@/components/main/PerformanceCard"
 
 export default function StudyPlan({ params }: { params: Promise<{ id: string }> }) {
-  const { studyPlan, setStudyPlan } = useStudyPlanStore()
+  const { studyPlan } = useStudyPlanStore()
   const { setQuizPlan } = useQuizPlanStore()
   const router = useRouter();
 

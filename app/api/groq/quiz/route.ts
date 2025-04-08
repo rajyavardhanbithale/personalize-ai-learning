@@ -1,64 +1,6 @@
-import { generateQuiz, generateStudyPlan, QuizResponse } from "@/types/api";
+import { generateQuiz } from "@/types/api";
 import { NextRequest, NextResponse } from "next/server";
 
-
-const tempResponse = {
-  "subject": "Operating System",
-  "totalQuestions": 4,
-  "topics": [
-    "Process Management"
-  ],
-  "questions": [
-    {
-      "question": "What is the primary function of a Process Scheduler in Process Management?",
-      "options": [
-        "To manage memory allocation",
-        "To manage CPU scheduling",
-        "To manage process creation and termination",
-        "To manage file system management"
-      ],
-      "answer": "To manage CPU scheduling",
-      "difficulty": "medium",
-      "subtopic": "Process Scheduling"
-    },
-    {
-      "question": "What is the difference between a Process and a Thread?",
-      "options": [
-        "A process can have multiple threads, but a thread cannot have multiple processes",
-        "A process and a thread are the same",
-        "A thread is a lightweight process, a process is a heavyweight thread",
-        "A process is a collection of threads"
-      ],
-      "answer": "A thread is a lightweight process, a process is a heavyweight thread",
-      "difficulty": "hard",
-      "subtopic": "Process vs Thread"
-    },
-    {
-      "question": "What is Context Switching?",
-      "options": [
-        "The process of switching from one process to another",
-        "The process of switching from one thread to another",
-        "The process of moving a process from secondary memory to main memory",
-        "The process of loading an operating system into memory"
-      ],
-      "answer": "The process of switching from one process to another",
-      "difficulty": "easy",
-      "subtopic": "Process Scheduling"
-    },
-    {
-      "question": "What is a Zombie Process?",
-      "options": [
-        "A process that is still running even after its parent process has terminated",
-        "A process that is waiting for its child process to complete",
-        "A process that has finished execution but still has an entry in the process table",
-        "A process that is being debugged"
-      ],
-      "answer": "A process that has finished execution but still has an entry in the process table",
-      "difficulty": "medium",
-      "subtopic": "Process States"
-    }
-  ]
-}
 
 
 export async function POST(req: NextRequest) {
