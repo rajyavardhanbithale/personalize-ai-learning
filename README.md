@@ -28,6 +28,7 @@ Many students struggle to prepare effectively for exams because they lack a clea
 ![Screenshot from 2025-04-08 16-10-54](https://github.com/user-attachments/assets/be3ec9bc-a31a-434f-aa4d-71cdca596b19)
 ![Screenshot from 2025-04-08 16-14-27](https://github.com/user-attachments/assets/6f31340b-c368-4007-94fe-3b52a917f4b9)
 ![Screenshot from 2025-04-08 16-14-30](https://github.com/user-attachments/assets/8ffe8727-6217-4816-8e8b-489be387d8da)
+![Screenshot from 2025-04-08 16-14-34](https://github.com/user-attachments/assets/d8705db2-4fa3-42f9-b589-e9ed2b00b80c)
 ![Screenshot from 2025-04-08 16-13-04](https://github.com/user-attachments/assets/152cb3e4-cd6e-4bda-8959-20758aeda114)
 
 
@@ -35,8 +36,7 @@ Many students struggle to prepare effectively for exams because they lack a clea
 
 - **Next.js** with **TypeScript**
 - **Tailwind CSS** for styling
-- **OpenAI/GROQ** for AI-based roadmap and quiz generation
-- **Modular UI components** (`Button`, `Input`, `Roadmap`, etc.)
+- **GROQ** for AI-based roadmap and quiz generation
 
 ## Getting Started
 
