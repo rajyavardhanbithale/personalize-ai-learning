@@ -12,7 +12,7 @@ export default function Home() {
   const [search, setSearch] = useState('');
   const [days, setDays] = useState('7');
   const [hour, setHour] = useState('3');
-  const [username, setUsername] = useState('walter');
+  const [username, setUsername] = useState('rajyavardhan');
   const [loading, setLoading] = useState(false);
 
   const router = useRouter();
